@@ -56,7 +56,7 @@
           PIDFile =/usr/local/apache-tomcat-9.0.76.tar.gz/tomcat.pid
           RemainAfterExit = yes
           ExecStart =/usr/local/apache-tomcat-9.0.76.tar.gz/bin/startup.sh
-          ExecStop =/usr/local/apache-tomcat-9.0.74/bin/shutdown.sh
+          ExecStop =/usr/local/apache-tomcat-9.0.76.tar.gz
           ExecReStart =/usr/local/apache-tomcat-9.0.76.tar.gz/bin/shutdown.sh;/usr/local/apache-tomcat-9.0.76.tar.gz/bin/startup.sh
           [Install]
           WantedBy = multi-user.target
